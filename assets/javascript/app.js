@@ -12,7 +12,7 @@ $(document).ready(function(){
 
     var character = $(this).attr("data-name");
    
-    var queryURL = "https//api.giphy.com/v1/gifs/search?api_key=c556iUpaeO6MaqfvC272iCg8GqrElGfo&q=" + character + "&limit=10&offset0&rating=G&lang=en";
+    var queryURL = "http//api.giphy.com/v1/gifs/search?api_key=c556iUpaeO6MaqfvC272iCg8GqrElGfo&q=" + character + "&limit=10&offset0&rating=G&lang=en";
 
 
     $("#buttons").on('click', function(){

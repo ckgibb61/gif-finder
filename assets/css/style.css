@@ -16,7 +16,7 @@ p {
 }
 
 #buttons {
-    margin: 25px;
+    margin: 16px;
     text-align: center;
 }
 
@@ -29,8 +29,13 @@ p {
 
 #appear {
     text-align: center;
+    margin: 160px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin-top: 16px;
 }
 
 #parks {
     text-align: center;
+    padding:15px;
 }

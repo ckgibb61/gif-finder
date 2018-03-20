@@ -39,8 +39,16 @@ $(document).ready(function () {
 
        $("#appear").append(gifAppear);
        $("#appear").append(rating);
+
      };
     
+     $("#add-character").on("click", function (event) {
+        $("#topics").empty();
+        event.preventDefault();
+        var newCharacter = $("#topics-input").val();
+        
+        
+    });
 
 
     //  $("#appear").on("click", function () {
